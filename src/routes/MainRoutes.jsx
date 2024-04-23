@@ -11,6 +11,7 @@ import Branches from "../pages/Branches/Branches";
 import Header from "../components/Header/Header";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import New from "../pages/New/New";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 export const PUBLIC_ROUTES = [
   {
@@ -88,6 +89,15 @@ export const PUBLIC_ROUTES = [
     element: (
       <Layout>
         <New />
+      </Layout>
+    ),
+  },
+  {
+    id: 10,
+    path: "/about",
+    element: (
+      <Layout>
+        <AboutUs />
       </Layout>
     ),
   },

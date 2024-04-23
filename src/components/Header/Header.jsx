@@ -16,13 +16,13 @@ const Header = () => {
         <div className="header__menu">
           <ul>
             <li>
-              <NavLink to={"/new"}>Новинки</NavLink>
+              <NavLink to={"/about"}>Обо мне</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/new"}>Новости</NavLink>
             </li>
             <li>
               <NavLink to={"/menu"}>Меню</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/bublers"}>Бублеры</NavLink>
             </li>
             <li>
               <NavLink to={"/branches"}>Филиалы</NavLink>
@@ -37,7 +37,7 @@ const Header = () => {
             Русский
             <img src={dropDown} alt="" />
           </button>
-          <button className="download">Скачать приложение</button>
+          {/* <button className="download">Скачать приложение</button> */}
         </div>
       </div>
     </header>
