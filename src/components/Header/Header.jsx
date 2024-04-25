@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/HeaderImg/image 1.svg";
-import dropDown from "../../assets/HeaderImg/Vector (2).svg";
+import dropDown from "../../assets/HeaderImg/Shape white.svg";
+import planet from "../../assets/HeaderImg/Shape.svg";
+import menu from "../../assets/HeaderImg/menu-svgrepo-com (1).svg";
 import "./Header.scss";
 
 const Header = () => {
+  const [isOpen, setOpen] = useState();
   return (
     <header className="header">
       <div className="header__container">
@@ -13,7 +16,7 @@ const Header = () => {
             <img src={logo} alt="" />
           </NavLink>
         </div>
-        <div className="header__menu">
+        <div className={`header__menu ${isOpen ? "active" : ""}`}>
           <ul>
             <li>
               <NavLink to={"/about"}>Обо мне</NavLink>
@@ -32,12 +35,19 @@ const Header = () => {
             </li>
           </ul>
         </div>
+        <img
+          src={menu}
+          alt=""
+          isActive={isOpen}
+          onClick={() => setOpen(!isOpen)}
+          className="burger-menu"
+        />
         <div className="header__buttons">
           <button className="btn-language">
-            Русский
+            <img src={planet} alt="" />
+            Eng
             <img src={dropDown} alt="" />
           </button>
-          {/* <button className="download">Скачать приложение</button> */}
         </div>
       </div>
     </header>
