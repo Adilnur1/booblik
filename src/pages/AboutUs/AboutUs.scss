@@ -1,3 +1,339 @@
-.about{
-    // background: url('../../assets/AboutUsImg/Vector.jpg') no-repeat;
+.about {
+
+    .AboutMe {
+
+        h4 {
+
+            width: 218px;
+            height: 20px;
+            margin-top: 185px;
+            margin-left: 611px;
+            opacity: 70%;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 46px;
+            color: rgba(78, 52, 37, 1);
+        }
+
+        .p {
+            margin: 0 auto;
+
+            background: url("../../assets/AboutImg/bublikfon.png") no-repeat center;
+
+            padding-top: 30px;
+            padding-bottom: 220px;
+
+            .p1 {
+                // width: 1104px;
+                height: 64px;
+                margin-top: 105px;
+                // margin-left: 210px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                letter-spacing: 4%;
+                color: rgba(78, 52, 37, 1);
+            }
+
+            .p2 {
+                // width: 940px;
+                height: 159px;
+                // margin-top: 12px;
+                // margin-left: 210px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                letter-spacing: 4%;
+                color: rgba(78, 52, 37, 1);
+
+            }
+
+            .p3 {
+                // width: 950px;
+                height: 95px;
+                // margin-left: 210px.;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                color: rgba(78, 52, 37, 1);
+                // margin-top: -5px;
+            }
+
+            .p4 {
+                // width: 920px;
+                // height: 128px;
+                margin-top: -5px;
+                // margin-left: 210px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                letter-spacing: 4%;
+                color: rgba(78, 52, 37, 1);
+
+            }
+
+            .p5 {
+                // width: 1204px;
+                height: 32px;
+                // margin-left: 210px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                letter-spacing: 3%;
+                color: rgba(78, 52, 37, 1);
+                margin-top: 26px;
+
+            }
+
+        }
+
+        .aboutme2 {
+            h3 {
+                // width: 480px;
+                height: 34px;
+                margin-top: 228px;
+                margin-left: 480px;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 43px;
+                letter-spacing: 3%;
+                color: rgba(78, 52, 37, 1);
+                ;
+
+            }
+
+            .blok1 {
+                display: flex;
+                justify-content: space-between;
+
+                margin-top: 68px;
+
+                p {
+                    width: 447px;
+                    height: 99px;
+                    margin-top: 137px;
+                    // margin-left: 246px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    line-height: 37px;
+                    letter-spacing: 3%;
+                    color: rgba(78, 52, 37, 1);
+
+                }
+
+                .corn {
+                    display: flex;
+                    // justify-content: center;
+
+                    margin-top: 58px;
+                    margin-left: 170px;
+
+                    // width: 112px;
+                    height: 117px;
+
+                }
+
+                .coffee {
+                    margin-left: 111px;
+                    margin-top: 50px;
+                    width: 480px;
+                    height: 450px;
+
+                }
+            }
+
+            .blok2 {
+                display: flex;
+                justify-content: space-between;
+
+                .limonads {
+                    width: 478px;
+                    height: 450px;
+                    margin-top: 121px;
+                    // margin-left: 156px;
+
+                }
+
+                p {
+                    width: 444px;
+                    height: 76px;
+                    margin-top: 192px;
+                    margin-left: 140px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 37px;
+                    letter-spacing: 3%;
+                    color: rgba(78, 52, 37, 1);
+
+                }
+
+                .limonad {
+                    width: 122px;
+                    height: 121px;
+                    margin-top: 65px;
+                    margin-left: 301px;
+                }
+            }
+
+            .blok3 {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    width: 409px;
+                    height: 122px;
+                    margin-top: 203px;
+                    // margin-left: 246px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: 3%;
+                    text-align: center;
+                    color: rgba(78, 52, 37, 1);
+
+                }
+
+                .dessert {
+                    width: 117px;
+                    height: 108px;
+                    margin-top: 66px;
+                    margin-left: 170px;
+
+                }
+
+                .desserts {
+                    width: 480px;
+                    height: 450px;
+                    margin-top: 134px;
+                    margin-left: 149px;
+
+                }
+            }
+
+            .blok4 {
+                display: flex;
+                justify-content: space-between;
+
+                .butter {
+                    width: 480px;
+                    height: 450px;
+                    margin-top: 191px;
+                    // margin-left: 156px;
+
+                }
+
+                p {
+                    width: 590px;
+                    height: 165px;
+                    margin-top: 253px;
+                    margin-left: 109px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: 3%;
+                    text-align: center;
+                    color: rgba(78, 52, 37, 1);
+
+
+                }
+
+                .butters {
+                    width: 96px;
+                    height: 92px;
+                    margin-top: 66px;
+                    margin-left: 314px;
+                }
+            }
+
+            .blok5 {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    width: 442px;
+                    height: 165px;
+                    margin-top: 223px;
+                    // margin-left: 213px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: 3%;
+                    text-align: center;
+                    color: rgba(78, 52, 37, 1);
+
+                }
+
+                .croissants {
+                    width: 117px;
+                    height: 111px;
+                    margin-top: 36px;
+                    margin-left: 170px;
+
+                }
+
+                .croissant {
+                    width: 483px;
+                    height: 450px;
+                    margin-top: 167px;
+                    margin-left: 150px;
+
+                }
+            }
+
+            .blok6 {
+                display: flex;
+                justify-content: space-between;
+
+                .buter {
+                    width: 480px;
+                    height: 450px;
+                    margin-top: 152px;
+                    // margin-left: 156px;
+
+                }
+
+                p {
+                    width: 435px;
+                    height: 29px;
+                    margin-top: 233px;
+                    margin-left: 140px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: 3%;
+                    color: rgba(78, 52, 37, 1);
+
+                }
+
+                .buters {
+                    width: 99px;
+                    height: 99px;
+                    margin-top: 74px;
+                    margin-left: 313px;
+                }
+            }
+
+            .end {
+                h3 {
+                    width: 542px;
+                    height: 30px;
+                    margin-top: 205px;
+                    margin-left: 450px;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: normal;
+                }
+
+                img {
+                    width: 104px;
+                    height: 104px;
+                    margin-top: 84px;
+                    margin-left: 668px;
+                    margin-bottom: 186px;
+                }
+            }
+        }
+    }
 }
