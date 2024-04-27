@@ -1,0 +1,28 @@
+.home {
+  margin-top: 86px;
+  &__location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    div:nth-child(2) {
+      width: 10px;
+      height: 10px;
+      background-color: #d9d9d9;
+      border-radius: 50%;
+    }
+    margin-bottom: 32px;
+  }
+  &__title {
+    margin-bottom: 53px;
+    font-family: 'Hagrid Text Trial';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+  }
+  &__vacancies{
+    display: flex;
+    gap:70px;
+    flex-direction: column;
+  }
+}
