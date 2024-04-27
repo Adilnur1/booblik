@@ -19,8 +19,9 @@ export const PUBLIC_ROUTES = [
     path: "/",
     element: (
       <>
-        <Header />
-        <HomePage />
+        <Layout>
+          <HomePage />
+        </Layout>
       </>
     ),
   },

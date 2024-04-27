@@ -1,0 +1,64 @@
+@import "../../styles/style.scss";
+
+.footer {
+  background: rgba(254, 164, 5, 0.95);
+  margin-top: 20px;
+  &__logo {
+    padding-top: 50px;
+    margin: 0 auto;
+    @media (max-width: 1020px) {
+      padding-top: 0px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    @include adaptiveValue("gap", 100, 50);
+  }
+
+  &__li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    h3 {
+      color: rgba(255, 255, 255, 1);
+      @include adaptiveValue("font-size", 16, 13);
+      font-weight: 600;
+    }
+    p {
+      @include adaptiveValue("font-size", 16, 12);
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+    }
+  }
+
+  &__qr {
+    margin: 0 auto;
+    img {
+      width: 362px;
+    }
+    @media (max-width: 990px) {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  padding-top: 12px;
+  border-top: 2px solid white;
+  margin-bottom: 42px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid white;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
