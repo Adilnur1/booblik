@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.scss";
 
-import piks from "../../assets/AboutUsImg/piks.svg";
+// import piks from "../../assets/AboutUsImg/piks.svg";
 import cardstwo from "../../assets/AboutUsImg/Group 125.png";
 import minicards1 from "../../assets/AboutUsImg/Снимок экрана 2024-04-09 162048 1.png";
 import minicards2 from "../../assets/AboutUsImg/Rectangle 628.png";
@@ -13,7 +13,6 @@ const HomePage = () => {
     <main>
       <div className="home">
         <div className="home__container">
-
           {/* ===========================BUBLIK===================================== */}
           <div className="bublik">
             <div className="bublik__text">
@@ -27,9 +26,7 @@ const HomePage = () => {
                 <button className="bublik__btn">Копи бублеры!</button>
               </div>
             </div>
-            <div className="bublik__img">
-              <img src={piks} alt="" />
-            </div>
+            <div className="bublik__img">{/* <img src={piks} alt="" /> */}</div>
           </div>
 
           {/* ====================================END BUBLIK============================= */}
