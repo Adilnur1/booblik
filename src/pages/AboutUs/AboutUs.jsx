@@ -16,6 +16,7 @@ import heart from '../../assets/AboutImg/heart.svg'
 
 
 
+
 const AboutUs = () => {
   return (
     <main>
@@ -108,6 +109,21 @@ const AboutUs = () => {
                 <img src={heart} alt="" />
               </div>
 
+          {/* ===========================================ABOUT ME ==================================== */}
+          <div>
+            <div
+              style={{
+                marginTop: "286px",
+              }}
+              className="AboutMe"
+            >
+              <h4
+                style={{
+                  textAlign: "center",
+                }}
+              >
+                Обо мне:
+              </h4>
             </div>
             {/* =========================================END  ABOUT ME 2 ========================================== */}
           </div>
