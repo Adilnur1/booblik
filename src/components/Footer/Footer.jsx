@@ -15,7 +15,11 @@ const Footer = () => {
             <h3>Bublick</h3>
             <p>Contact us</p>
             <p>yabublik@gmail.com</p>
-            <p>+1-2345-6789</p>
+            <p>
+              <a href="tel:+1-2345-6789">
+                +1-2345-6789
+              </a>
+            </p>
           </div>
           <div className="footer__li">
             <h3>Обо мне</h3>
@@ -43,7 +47,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__qr">
-          <img src={qr} alt="" />
+          <a href="https://www.instagram.com/ya_booblik/" target="_blank">
+            <img src={qr} alt="" />
+          </a>
         </div>
       </div>
     </footer>

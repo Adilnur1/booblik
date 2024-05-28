@@ -107,6 +107,7 @@ export const PUBLIC_ROUTES = [
 //   { id: 5, path: "/admin", element: <AdminPage /> },
 //   { id: 6, path: "/edit/:id", element: <EditPage /> },
 // ];
+
 const MainRoutes = () => {
   return (
     <Routes>

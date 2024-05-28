@@ -5,8 +5,24 @@ import dropDown from "../../assets/HeaderImg/Shape white.svg";
 import planet from "../../assets/HeaderImg/Shape.svg";
 import menu from "../../assets/HeaderImg/menu-svgrepo-com (1).svg";
 import "./Header.scss";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const [Lang, setLang] = useState("RU")
+  const { t, i18n } = useTranslation()
+  const changeLanguage = (newLang) => {
+    if (newLang === "RU") {
+      setLang("KG")
+      i18n.changeLanguage("kg")
+    } else if (newLang === "KG") {
+      setLang(EN)
+      i18n.changeLanguage("en")
+    }
+    else if (newLang === "EN") {
+      setLang(RU)
+      i18n.changeLanguage("ru")
+    }
+  }
   const [isOpen, setOpen] = useState();
   return (
     <header className="header">
@@ -45,7 +61,7 @@ const Header = () => {
         <div className="header__buttons">
           <button className="btn-language">
             <img src={planet} alt="" />
-            Eng
+            {t("RU")}
             <img src={dropDown} alt="" />
           </button>
         </div>

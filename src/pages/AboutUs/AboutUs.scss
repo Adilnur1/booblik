@@ -4,10 +4,11 @@
 
         h4 {
 
-            width: 218px;
+            // width: 218px;
             height: 20px;
             margin-top: 185px;
-            margin-left: 611px;
+            // margin-left: 611px;
+            text-align: center;
             opacity: 70%;
             font-weight: 400;
             font-size: 46px;
@@ -315,11 +316,16 @@
             }
 
             .end {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 h3 {
-                    width: 542px;
+                    // width: 542px;
                     height: 30px;
                     margin-top: 205px;
-                    margin-left: 450px;
+                    margin-left: 250px;
+                    // text-align: center;
                     font-weight: 500;
                     font-size: 26px;
                     line-height: 32px;
@@ -327,10 +333,13 @@
                 }
 
                 img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     width: 104px;
                     height: 104px;
                     margin-top: 84px;
-                    margin-left: 668px;
+                    // margin-left: 668px;
                     margin-bottom: 186px;
                 }
             }
